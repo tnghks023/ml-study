@@ -19,3 +19,5 @@ Observe:
 Data PreProcessing(x = x / 100)
 하니까 그래프가 더 명확하게 보임
 Learning rate 0.001도 가능해짐
+
+epoch를 증가시키니까 어느 수준 이상으로는 큰변화없음

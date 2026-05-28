@@ -35,7 +35,7 @@ for lr in rates:
     model.train(
         x,
         y,
-        epochs=300,
+        epochs=3000,
     )
 
     plt.plot(
