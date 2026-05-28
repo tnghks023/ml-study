@@ -10,6 +10,8 @@ x = np.array(
     [30, 40, 50, 60]
 )
 
+x = x / 100 # 데이터 전처리(Data PreProcessing) 실험
+
 y = np.array(
     [100, 120, 140, 160]
 )
@@ -19,6 +21,8 @@ rates = [
     0.0001,
     0.001,
 ]
+
+plt.figure(figsize=(8,5))
 
 for lr in rates:
 
@@ -46,6 +50,8 @@ plt.xlabel(
 plt.ylabel(
     "Loss"
 )
+
+plt.yscale("log")
 
 plt.title(
     "Loss Curve"

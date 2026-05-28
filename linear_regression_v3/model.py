@@ -84,6 +84,12 @@ class LinearRegression:
                 )
             )
 
+            if current_loss > 1e10:
+                print(
+                    "Diverged"
+                )
+                break
+
             self.loss_history.append(
                 current_loss
             )
